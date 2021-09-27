@@ -1,0 +1,280 @@
+/* Result page */
+.elementor-pagination .page-numbers.current {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.elementor-pagination .page-numbers:not(.current){
+	font-weight: 300;
+}
+@media (max-width : 1024px) {
+	.elementor-post__thumbnail::after {
+		content: "";
+		position: absolute;
+		width: 30%;
+		height: 100%;
+		background-image: url("https://morf.today/wp-content/uploads/2021/06/tag-13.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	#result-posts .elementor-post__title a{
+		font-family: ITCDemi, "MstiffHei HK Bold";
+		font-size: 29px;
+		font-weight: bold;
+	}
+	#result-posts .elementor-post__excerpt p{
+		font-family: Montserrat, "MHei HK";
+		font-weight: 300;
+		font-size: 19px;
+	}
+	a.elementor-post__read-more{
+		font-size: 19px !important;
+	}
+	.page-numbers{
+		font-family: Montserrat;
+		font-size: 18px !important;
+		font-weight: 300;
+	}
+	.current{
+		font-weight: bold !important;
+	}
+}
+@media (min-width : 1025px) {
+	#result-posts .elementor-post__title a{
+		font-family: ITCDemi, "MstiffHei HK Bold";
+		font-size: 22px;
+		line-height: 32px;
+	}
+	#result-posts .elementor-post__excerpt p{
+		font-family: Montserrat, "MHei HK";
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	a.elementor-post__read-more{
+		font-size: 14px !important;
+	}
+}
+.elementor-pagination{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+@font-face {
+	font-family: "ITCDemi";
+	src: url("https://morf.today/wp-content/uploads/2021/02/ITCAvantGardeStdDemi.ttf");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "MstiffHei HK Bold";
+	src: url("https://morf.today/wp-content/uploads/2021/02/MStiffHei-HK-Bold.ttf");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "MHei HK";
+	src: url("https://morf.today/wp-content/uploads/2021/02/MHeiHK-Light.ttf");
+	font-weight: 300;
+}
+a.elementor-post__thumbnail__link{
+	margin-bottom: 0 !important;
+}
+h3.elementor-post__title{
+	min-height: 64px;
+	margin: 8px 0 !important;
+}
+.elementor-posts .elementor-post__excerpt{
+	margin-bottom: 0 !important;
+}
+.elementor-post__text{
+	font-size: 0;
+}
+/* End of Result page */
+
+/* Video */
+.video h2.elementor-heading-title.elementor-size-default{
+	font-family: "ITC", "MStiffHei HK" !important;
+}
+@media (min-width : 1025px) {
+	.video h2.elementor-heading-title.elementor-size-default{
+		font-size: 40px !important;
+	}
+}
+@media (max-width : 1024px) {
+	.video h2.elementor-heading-title.elementor-size-default{
+		font-size: 32px !important;
+	}
+	.elementor-widget-theme-post-excerpt{
+		font-family: Montserrat, "MHei HK";
+		font-size: 20px !important;
+		font-weight: 300;
+	}
+	#related-videos{
+		font-size: 32px !important;
+	}
+}
+/* End of Video */
+
+/* Header  */
+.nav_btn{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nav_btn > div > div{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.nav_btn > div > div > div{
+    margin: 0 1px !important;
+    height: 30px !important;
+    width: unset !important;
+}
+#extra-bg-image{
+    height: 0;
+}
+
+/* End of Header */
+
+/* Article */
+#opposite-scrolling {
+    height: 1057px !important;
+}
+/* End of Article */
+/* Mobile Article */
+#mobile-article-title{
+	font-family: "ITC","MstiffHei HK" !important;
+	font-weight: 500 !important;
+	font-size: 35px !important;
+}
+
+.article-widget-container .swiper-pagination{
+	font-family: "Montserrat" !important;
+	font-weight: 500 !important;
+	font-size: 18px !important;
+}
+.article-widget-container .article-container span{
+	font-family: Montserrat, "MHei HK" !important;
+	font-weight: 300 !important;
+	font-size: 22px !important;
+}
+
+/* End */
+/* Home */
+.desktop-home-latest-widget-container .row1-height {
+    height: 61.6px !important;
+}
+.desktop-home-latest-widget-container .read-more{
+    font-size: 16px !important;
+}
+.desktop-home-latest-widget-container .excerpt{
+    font-size: 16px !important;
+}
+/* End of Home */
+/* Mobile Home */
+.mobile-home-top-widget-container .day{
+	font-family: ITC !important;
+	font-weight: 600 !important;
+	font-size: 40px !important;
+	line-height: 41px !important;
+}
+.mobile-home-top-widget-container .month{
+	font-family: ITC !important;
+	font-weight: 200 !important;
+	font-size: 27px !important;
+	line-height: 27px !important;
+    padding-bottom: 2px !important;
+}
+.mobile-home-top-widget-container .title{
+	font-family: ITC,"MstiffHei HK" !important;
+	font-weight: 500 !important;
+	font-size: 30px !important;
+	text-align: start;
+}
+.mobile-home-top-widget-container .row1{
+	margin-bottom: 30px;
+	align-items: stretch !important;
+}
+.mobile-home-top-widget-container .swiper-pagination{
+	top: 85px !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin: 0 8px !important;
+}
+.mobile-home-top-widget-container .excerpt{
+	font-family: Montserrat,"MHei HK" !important;
+	font-weight: 300 !important; 
+	font-size: 12px !important;
+}
+.mobile-home-top-widget-container .read-more{
+    font-family: Montserrat !important;
+	font-weight: 300 !important;
+	font-size: 12px !important;
+}
+.mobile-home-top-widget-container .excerpt-readmore{
+	padding-left: 8px !important;
+	padding-top: 10px !important;;
+	padding-right: 20px !important;;
+	padding-bottom: 10px !important;
+	text-align: left;
+}
+.mobile-home-top-widget-container .today{
+	width: unset !important; 
+	margin: 0 25px;
+}
+@media (max-width : 767px){
+.mobile-home-top-widget-container .row1{
+	height: unset !important;
+	margin-bottom: 10px !important;
+}
+.mobile-home-category-widget-container .icon{
+	height: 20px !important;
+}
+
+.mobile-home-category-widget-container .icon-wrapper{
+	padding: 15px 10px !important;
+}
+
+.mobile-home-category-widget-container .swiper-pagination {
+    top: 10px !important;
+    right: 10px !important;
+}
+.mobile-home-category-widget-container .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 6px !important;
+}
+
+}
+/* End of Mobile Home */
+body{
+  height: 100%;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.elementor-location-header, .elementor-location-footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+div[data-elementor-type="wp-page"]{
+	flex-grow: 1;
+}
+
+
+.elementor-inner {
+	z-index:1;
+}
+
+.desktop-home-category-widget-container .icon-wrapper {
+	border-width:1px!important;
+   border-bottom-color: #999999 !important;
+  
+}
+
+.desktop-home-category-widget-container .icon-wrapper > div{
+		border-width:1px!important;
+	  border-right-color: #999999 !important;
+}
+

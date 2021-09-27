@@ -1,0 +1,374 @@
+/* swiper pagination */
+.mobile-home-category-widget-container .swiper-pagination{
+    top: 40px;
+    right: 40px;
+    bottom: unset;
+    text-align: end;
+    width: unset !important;
+}
+.mobile-home-category-widget-container .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    background: #FFF;
+}
+/* Icon */
+.mobile-home-category-widget-container .icon-wrapper{
+    padding: 30px 40px;
+}
+.mobile-home-category-widget-container .icon{
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+/* Image */
+.mobile-home-category-widget-container .image-wrapper{
+  width: 100%;
+  /* whatever width you want */
+  display: inline-block;
+  position: relative;
+}
+.mobile-home-category-widget-container .image-wrapper:after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+.mobile-home-category-widget-container .image-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.mobile-home-category-widget-container .image-flexbox{
+    display: flex;
+    height: 100%;
+}
+
+
+.mobile-home-category-widget-container .inner-image{
+    height: 100%;
+    width: 43.75%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-basis: 50%; */
+    /* flex-wrap: wrap; */
+    /* flex-grow: 1; */
+    /* align-items: center; */
+    /* display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; */
+}
+
+.mobile-home-category-widget-container .image1{
+    height: 100%;
+    width: 56.25%;
+    object-fit: cover;
+}
+.mobile-home-category-widget-container .image2{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.mobile-home-category-widget-container .image3{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Title, excerpt and read more  */
+.mobile-home-category-widget-container .row3{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.mobile-home-category-widget-container .excerpt-readmore{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* flex-grow: 1; */
+    align-items: flex-start;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+/* Title */
+.mobile-home-category-widget-container .title{
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    font-family: Montserrat, 'MstiffHei HK';
+}
+.mobile-home-category-widget-container .title1{
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    font-family: Montserrat, 'MstiffHei HK';
+}
+.mobile-home-category-widget-container .title2{
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    font-family: Montserrat, 'MstiffHei HK';
+}
+/* Excerpt and read more */
+.mobile-home-category-widget-container .excerpt{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Montserrat, 'MHei HK';
+    text-align: left;
+}
+.mobile-home-category-widget-container .excerpt1{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Montserrat, 'MHei HK';
+    text-align: left;
+}
+.mobile-home-category-widget-container .excerpt2{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: Montserrat, 'MHei HK';
+    text-align: left;
+}
+.mobile-home-category-widget-container .read-more{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+    font-style: italic;
+}
+.mobile-home-category-widget-container .read-more1{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+    font-style: italic;
+}
+.mobile-home-category-widget-container .read-more2{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+
+/* Color by category */
+.mobile-home-category-widget-container .Test .title{
+    color: aqua;
+}
+.mobile-home-category-widget-container .Test .title2{
+    color: aqua;
+}
+.mobile-home-category-widget-container .Test .title3{
+    color: aqua;
+}
+.mobile-home-category-widget-container .Test .read-more{
+    color: aqua;
+}
+.mobile-home-category-widget-container .Test .read-more1{
+    color: aqua;
+}
+.mobile-home-category-widget-container .Test .read-more2{
+    color: aqua;
+}
+
+.mobile-home-category-widget-container .Test .icon-wrapper{
+    background-color: aqua;
+}
+
+.mobile-home-category-widget-container .Test .icon{
+    background-color: aqua;
+    background-image: url(http://localhost:8000/wp-content/uploads/2021/06/LPT-AngelaChan-SH-01L-2.jpg);
+}
+.mobile-home-category-widget-container .Test .image-flexbox{
+    flex-direction: row-reverse;
+}
+
+.mobile-home-category-widget-container .People .title{
+    color: #FFB700;
+}
+.mobile-home-category-widget-container .People .title1{
+    color: #FFB700;
+}
+.mobile-home-category-widget-container .People .title2{
+    color: #FFB700;
+}
+.mobile-home-category-widget-container .People .read-more{
+    color: #FFB700;
+}
+.mobile-home-category-widget-container .People .read-more1{
+    color: #FFB700;
+}
+.mobile-home-category-widget-container .People .read-more2{
+    color: #FFB700;
+}
+
+.mobile-home-category-widget-container .People .icon-wrapper{
+    background-color: #FFB700;
+}
+
+.mobile-home-category-widget-container .People .icon{
+    background-color: #FFB700;
+    background-image: url(https://morf.today/wp-content/uploads/2021/02/Morf_logo-15.png);
+}
+.mobile-home-category-widget-container .People .image-flexbox{
+    flex-direction: row;
+}
+
+.mobile-home-category-widget-container .Hair .title{
+    color: #FC5901;
+}
+.mobile-home-category-widget-container .Hair .title1{
+    color: #FC5901;
+}
+.mobile-home-category-widget-container .Hair .title2{
+    color: #FC5901;
+}
+.mobile-home-category-widget-container .Hair .read-more{
+    color: #FC5901;
+}
+.mobile-home-category-widget-container .Hair .read-more1{
+    color: #FC5901;
+}
+.mobile-home-category-widget-container .Hair .read-more2{
+    color: #FC5901;
+}
+
+.mobile-home-category-widget-container .Hair .icon-wrapper{
+    background-color: #FC5901;
+}
+
+.mobile-home-category-widget-container .Hair .icon{
+    background-color: #FC5901;
+    background-image: url(https://morf.today/wp-content/uploads/2021/02/Morf_logo-11.png);
+}
+.mobile-home-category-widget-container .Hair .image-flexbox{
+    flex-direction: row-reverse;
+}
+
+.mobile-home-category-widget-container .Beauty .title{
+    color: #FF5977;
+}
+.mobile-home-category-widget-container .Beauty .title1{
+    color: #FF5977;
+}
+.mobile-home-category-widget-container .Beauty .title2{
+    color: #FF5977;
+}
+.mobile-home-category-widget-container .Beauty .read-more{
+    color: #FF5977;
+}
+.mobile-home-category-widget-container .Beauty .read-more1{
+    color: #FF5977;
+}
+.mobile-home-category-widget-container .Beauty .read-more2{
+    color: #FF5977;
+}
+
+.mobile-home-category-widget-container .Beauty .icon-wrapper{
+    background-color: #FF5977;
+}
+
+.mobile-home-category-widget-container .Beauty .icon{
+    background-color: #FF5977;
+    background-image: url(https://morf.today/wp-content/uploads/2021/02/Morf_logo-12.png);
+}
+.mobile-home-category-widget-container .Beauty .image-flexbox{
+    flex-direction: row;
+}
+
+.mobile-home-category-widget-container .Fashion .title{
+    color: #BA29BA;
+}
+.mobile-home-category-widget-container .Fashion .title1{
+    color: #BA29BA;
+}
+.mobile-home-category-widget-container .Fashion .title2{
+    color: #BA29BA;
+}
+.mobile-home-category-widget-container .Fashion .read-more{
+    color: #BA29BA;
+}
+.mobile-home-category-widget-container .Fashion .read-more1{
+    color: #BA29BA;
+}
+.mobile-home-category-widget-container .Fashion .read-more2{
+    color: #BA29BA;
+}
+
+.mobile-home-category-widget-container .Fashion .icon-wrapper{
+    background-color: #BA29BA;
+}
+
+.mobile-home-category-widget-container .Fashion .icon{
+    background-color: #BA29BA;
+    background-image: url(https://morf.today/wp-content/uploads/2021/02/Morf_logo-13.png);
+}
+.mobile-home-category-widget-container .Fashion .image-flexbox{
+    flex-direction: row-reverse;
+}
+
+.mobile-home-category-widget-container .Mind .title{
+    color: #02A4D3;
+}
+.mobile-home-category-widget-container .Mind .title1{
+    color: #02A4D3;
+}
+.mobile-home-category-widget-container .Mind .title2{
+    color: #02A4D3;
+}
+.mobile-home-category-widget-container .Mind .read-more{
+    color: #02A4D3;
+}
+.mobile-home-category-widget-container .Mind .read-more1{
+    color: #02A4D3;
+}
+.mobile-home-category-widget-container .Mind .read-more2{
+    color: #02A4D3;
+}
+
+.mobile-home-category-widget-container .Mind .icon-wrapper{
+    background-color: #02A4D3;
+}
+
+.mobile-home-category-widget-container .Mind .icon{
+    background-color: #02A4D3;
+    background-image: url(https://morf.today/wp-content/uploads/2021/02/Morf_logo-16.png);
+}
+.mobile-home-category-widget-container .Mind .image-flexbox{
+    flex-direction: row;
+}
+
+.mobile-home-category-widget-container .Living .title{
+    color: #9EC600;
+}
+.mobile-home-category-widget-container .Living .title1{
+    color: #9EC600;
+}
+.mobile-home-category-widget-container .Living .title2{
+    color: #9EC600;
+}
+.mobile-home-category-widget-container .Living .read-more{
+    color: #9EC600;
+}
+.mobile-home-category-widget-container .Living .read-more1{
+    color: #9EC600;
+}
+.mobile-home-category-widget-container .Living .read-more2{
+    color: #9EC600;
+}
+
+.mobile-home-category-widget-container .Living .icon-wrapper{
+    background-color: #9EC600;
+}
+
+.mobile-home-category-widget-container .Living .icon{
+    background-color: #9EC600;
+    background-image: url(https://morf.today/wp-content/uploads/2021/02/Morf_logo-14.png);
+}
+.mobile-home-category-widget-container .Living .image-flexbox{
+    flex-direction: row-reverse;
+}
