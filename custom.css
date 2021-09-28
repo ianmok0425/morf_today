@@ -187,7 +187,7 @@ h3.elementor-post__title{
 .mobile-home-top-widget-container .title{
 	font-family: ITC,"MstiffHei HK" !important;
 	font-weight: 500 !important;
-	font-size: 30px !important;
+	font-size: 29px !important;
 	text-align: start;
 }
 .mobile-home-top-widget-container .row1{
@@ -239,7 +239,7 @@ h3.elementor-post__title{
     right: 10px !important;
 }
 .mobile-home-category-widget-container .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 6px !important;
+    margin: 0 8px !important;
 }
 
 }
