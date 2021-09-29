@@ -20,14 +20,21 @@
 		font-family: ITCDemi, "MstiffHei HK Bold";
 		font-size: 20px;
 		font-weight: bold;
+		line-height: 24px;
+	}
+	#result-posts h3.elementor-post__title{
+		min-height: 10px;
+		margin: 2px 0 !important;
 	}
 	#result-posts .elementor-post__excerpt p{
 		font-family: Montserrat, "MHei HK";
 		font-weight: 300;
-		font-size: 19px;
+		font-size: 11px;
+		line-height: 15px;
 	}
 	a.elementor-post__read-more{
-		font-size: 19px !important;
+		font-size: 10px !important;
+		font-weight: 400 !important;
 	}
 	.page-numbers{
 		font-family: Montserrat;
