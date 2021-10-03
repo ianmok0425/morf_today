@@ -106,7 +106,7 @@ h3.elementor-post__title{
 }
 @media (max-width : 1024px) {
 	.video h2.elementor-heading-title.elementor-size-default{
-		font-size: 32px !important;
+		font-size: 14px !important;
 	}
 	.elementor-widget-theme-post-excerpt{
 		font-family: Montserrat, "MHei HK";
