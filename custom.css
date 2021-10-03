@@ -157,12 +157,16 @@ h3.elementor-post__title{
 .article-widget-container .swiper-pagination{
 	font-family: "Montserrat" !important;
 	font-weight: 500 !important;
-	font-size: 18px !important;
+	font-size: 10px !important;
 }
 .article-widget-container .article-container span{
 	font-family: Montserrat, "MHei HK" !important;
 	font-weight: 300 !important;
-	font-size: 22px !important;
+	font-size: 12px !important;
+}
+
+.article-widget-container .article-container .article-paragraph{
+	margin-top: 15px;
 }
 
 /* End */
