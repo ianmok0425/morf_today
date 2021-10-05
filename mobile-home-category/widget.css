@@ -92,7 +92,7 @@
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 15px;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
 }
 /* Title */
 .mobile-home-category-widget-container .title{
@@ -100,18 +100,21 @@
     padding-bottom: 3px;
     font-weight: bold;
     font-family: Montserrat, 'MstiffHei HK';
+    text-align: left;
 }
 .mobile-home-category-widget-container .title1{
     font-size: 20px;
     padding-bottom: 3px;
     font-weight: bold;
     font-family: Montserrat, 'MstiffHei HK';
+    text-align: left;
 }
 .mobile-home-category-widget-container .title2{
     font-size: 20px;
     padding-bottom: 3px;
     font-weight: bold;
     font-family: Montserrat, 'MstiffHei HK';
+    text-align: left;
 }
 /* Excerpt and read more */
 .mobile-home-category-widget-container .excerpt{
