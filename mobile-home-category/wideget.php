@@ -205,15 +205,15 @@ class Mobile_Home_Category_Widget extends \Elementor\Widget_Base {
 				$excerpt2_html = '<div class="excerpt2" style="display:none"></div>';
 				$excerpt = get_the_excerpt($post_id);
 				if($excerpt) {
-					$excerpt_html = '<div class="excerpt" postid="' . $post_id . '">' . mb_substr($excerpt, 0, 80) . '</div>';
+					$excerpt_html = '<div class="excerpt" postid="' . $post_id . '">' . $excerpt . '</div>';
 				}
 				$excerpt = get_the_excerpt($second_post_id);
 				if($excerpt && !in_array($second_post_id, $built_post_ids)) {
-					$excerpt1_html = '<div class="excerpt1" style="display:none" postid="' . $second_post_id . '">' . mb_substr($excerpt, 0,80) . '</div>';
+					$excerpt1_html = '<div class="excerpt1" style="display:none" postid="' . $second_post_id . '">' . $excerpt . '</div>';
 				}
 				$excerpt = get_the_excerpt($third_post_id);
 				if($excerpt && !in_array($third_post_id, $built_post_ids)) {
-					$excerpt2_html = '<div class="excerpt2" style="display:none" postid="' . $third_post_id . '">' . mb_substr($excerpt, 0, 80) . '</div>';
+					$excerpt2_html = '<div class="excerpt2" style="display:none" postid="' . $third_post_id . '">' . $excerpt . '</div>';
 				}
 
 				$readmore_html = '<div><a class="read-more" href=""></a></div>';

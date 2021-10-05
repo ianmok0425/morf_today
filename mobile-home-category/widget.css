@@ -119,18 +119,33 @@
     font-weight: 300;
     font-family: Montserrat, 'MHei HK';
     text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 .mobile-home-category-widget-container .excerpt1{
     font-size: 13px;
     font-weight: 300;
     font-family: Montserrat, 'MHei HK';
     text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 .mobile-home-category-widget-container .excerpt2{
     font-size: 13px;
     font-weight: 300;
     font-family: Montserrat, 'MHei HK';
     text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 .mobile-home-category-widget-container .read-more{
     font-size: 13px;
