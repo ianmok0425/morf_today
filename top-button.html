@@ -1,0 +1,33 @@
+<script>
+    jQuery(document).ready(function() {
+        jQuery(window).on("scroll", function() {
+            var footerScrollY = getOffset(document.getElementById('morf-footer')).top - 550;
+            console.log("footerScrollY: ", footerScrollY);
+            var y = jQuery(this).scrollTop();
+            console.log("y: ", y);
+            if (y > footerScrollY) {
+                jQuery('#top_button').fadeOut();
+            } else {
+                jQuery('#top_button').fadeIn();
+            }
+
+        });
+        jQuery("#top_button").click(function() {
+            window.scrollTo(0, 0);
+        });
+    });
+
+    function getOffset(el) {
+        var _x = 0;
+        var _y = 0;
+        while (el && !isNaN(el.offsetLeft) && !isNaN(el.offsetTop)) {
+            _x += el.offsetLeft - el.scrollLeft;
+            _y += el.offsetTop - el.scrollTop;
+            el = el.offsetParent;
+        }
+        return {
+            top: _y,
+            left: _x
+        };
+    }
+ </script>

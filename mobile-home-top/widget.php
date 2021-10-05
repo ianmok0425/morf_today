@@ -143,7 +143,7 @@ class Mobile_Home_Top_Widget extends \Elementor\Widget_Base {
 				$image_wrapper_html = '<div class="image-div"><div class="image-wrapper"><div>' . $image_html . '</div></div></div>';
 
 				$bottom_image_html = '<div class="bottom-image">' . '</div>';
-				$excerpt_html = '<div class="excerpt">' . mb_substr(get_the_excerpt(), 0, 60) . '</div>';
+				$excerpt_html = '<div class="excerpt">' . get_the_excerpt() . '</div>';
 				$link = get_post_permalink();
 				$readmore_html = '<div><a class="read-more" href="' . $link . '">' . 'Read more...' . '</a></div>';
 
